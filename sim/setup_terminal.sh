@@ -39,12 +39,17 @@ alias vwaves="${VIVADO}/xsim -gui"
 
 ### DV ###
 # Local
-#export DV_UVMT_PROJECT_NAME_ST_SRC_PATH=${PROJECT_DV_DIR}/uvmt_PROJECT_NAME_st/src
+export DV_UVMA_${name}_SRC_PATH=${PROJECT_DV_DIR}/uvma_${name}/src
+export DV_UVME_${name}_ST_SRC_PATH=${PROJECT_DV_DIR}/uvme_${name}_st/src
+export DV_UVMT_${name}_ST_SRC_PATH=${PROJECT_DV_DIR}/uvmt_${name}_st/src
 
 # Imports
 export UVM_HOME=${PROJECT_DV_IMPORTS_DIR}/uvm/src
 export DV_UVM_SRC_PATH=${PROJECT_DV_IMPORTS_DIR}/uvm/src
 export DV_UVML_SRC_PATH=${PROJECT_DV_IMPORTS_DIR}/uvml/src
+export DV_UVML_RAL_SRC_PATH=${PROJECT_DV_IMPORTS_DIR}/uvml_ral/src
+export DV_UVML_LOGS_SRC_PATH=${PROJECT_DV_IMPORTS_DIR}/uvml_logs/src
+export DV_UVML_SB_SRC_PATH=${PROJECT_DV_IMPORTS_DIR}/uvml_sb/src
 
 # PATH
 export PATH=${PATH}:${MIO_HOME}/src

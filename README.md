@@ -3,6 +3,8 @@ Congratulations on creating a new Moore.io-based UVM Agent!  Please ensure the f
 - [ ] Replace `${name}` and `${full_name}` in the codebase.  Ex: `pcie` and `PCI Express`
 - [ ] Review the list of external libraries in `/sim/setup_project.py`
 - [ ] Review the project variables in `/sim/setup_terminal.sh`
+- [ ] Add an image for the project logo in the `gh-pages` branch, under `/assets/img/logo.png`
+- [ ] Add a block diagram for the Agent in the `gh-pages` branch, under `/assets/img/agent_block_diagram.svg`
 
 
 # About
